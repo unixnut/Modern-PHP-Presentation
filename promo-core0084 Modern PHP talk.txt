@@ -1,0 +1,22 @@
+Perth PHP Meetup Group === promo-core0084*.txt (2019-10-31 04:08Z, alastair@warpspace.net)
+Promotional item or analysis -- 20 Nov 2019 talk: Modern PHP
+
+https://www.meetup.com/Perth-PHP-Developers/events/266247115/
+
+Title: PHP Foundations Series: Namespaces, Composer and Exceptions
+
+Blurb:
+This talk will cover the current best practice for starting a PHP project "the right way", including how to structure the subdirectories (folders) and handle errors.  Concepts that will be introduced include:
+
+  - Namespaces
+  - The auto-loader
+  - Composer
+  - Simple build pipelines
+  - Exception handling
+  - Class-based programming
+
+All of these concepts are heavily interconnected, and it is recommended to use all of them in order to avoid traditional pitfalls seen with non- or partially-object-orientated PHP projects.  Once you get the hang of them, your projects will be simpler to understand, easier to modularise, quicker to add 3rd-party code to and more resistant to runtime errors going unnoticed.
+
+To avoid having to "cut and paste" when starting a new project, the "cookiecutter" project template tool will be demonstrated.  The part of this talk about Composer covers the recommended way to use 3rd-party code in PHP projects, what (not) to commit to your source control repo and how Composer manages the "vendor" subdirectory.  The rest of the talk will consist of explanations of coding techniques, some theory and hopefully a live demo.
+
+It is assumed that audience members have knowledge of object orientation and other intermediate programming concepts, and if they wish to do any personal experimentation, have PHP version 5.6+ and a network connection available.

@@ -1,0 +1,55 @@
+  1. Namespaces
+       - Example
+       - Rationale
+       - Classes only
+       - Gotchas
+  1. Class-based Programming
+       - Everything is a class
+       - Functions -> static methods
+       - Defines -> const
+       - Object Interfaces
+              - Can have constructors
+       - Auto-loader magic
+  1. Exception Handling
+       - Specifics
+       - Example
+       - Error code
+       - Logic errors vs. runtime exceptions
+       - Checked vs. unchecked exceptions
+       - Top-level handler
+              - set_exception_handler('exception_handler');
+  1. The Auto-loader
+       - spl_autoload_register()
+       - Used to find a class/interface before "class not found" error
+  1. Composer
+       - composer.json and composer.lock
+       - `include-path` for functions, etc.
+       - `autoload` for namespaces
+       - Best kind is "PSR-4" auto-loading
+       - Version dependencies for 3rd-party code
+       - `require_once dirname($_SERVER["DOCUMENT_ROOT"]) . '/vendor/autoload.php';`
+       - `require_once dirname(__DIR__) . '/vendor/autoload.php';`
+       - Uses caching
+  1. Composer subcommands
+       - `install` -- creates vendor/ subdirectory
+       - `search`, `require` and `remove`
+       - `why` and `why-not`
+       - `status`
+       - `update` -- New versions of 3rd-party code
+       - `run-script` and `exec`
+  1. Simple Build Pipelines
+       - Makefiles
+       - Octopus Deploy, etc.
+  1. Demo
+    1. Installing cookiecutter
+       - https://cookiecutter.readthedocs.io
+    1. New project
+    1. Classes
+    1. Functions
+    1. 3rd-party code
+    1. Questions about demo
+  1. Pitfalls of Traditional Approaches
+       - Include a bunch of stuff
+       - No versioning strategy for 3rd-party code
+       - Doesn't use namespaces
+  1. Questions
